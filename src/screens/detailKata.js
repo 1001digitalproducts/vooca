@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
-export default class Home extends Component {
+export default class DetailKata extends Component {
     render() {
         return (
             <View>
-                <Text style={styles.textStyle}>Halaman home</Text>
+                <Text style={styles.textStyle}>Ini halaman detail</Text>
             </View>
         )
     }
