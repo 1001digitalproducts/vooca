@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "kategori": "Family"
+  },
+  {
+    "id": 2,
+    "kategori": "School"
+  },
+  {
+    "id": 3,
+    "kategori": "Food"
+  },
+  {
+    "id": 4,
+    "kategori": "House"
+  },
+  {
+    "id": 5,
+    "kategori": "Color"
+  }
+]

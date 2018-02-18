@@ -1,7 +1,8 @@
 import * as type from '../type';
+import categories from '../../data/data.json';
 
 const initialState = {
-    dataKategori: [],
+    dataKategori: categories,
     isiData: "dari reducer",
 
 };
@@ -11,7 +12,7 @@ const KategoriReducer = (state = initialState, action) => {
         case type.GET_DATA_KATEGORI_S:
             return {
                 ...state,
-                dataKategori: []
+                dataKategori: action.dataKategori
             };
         default:
             return state;

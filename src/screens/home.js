@@ -1,17 +1,38 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {StyleSheet, Alert} from 'react-native';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as kategoriActions from '../redux/kategori/actions';
+import {
+    Container,
+    Content,
+    Button,
+    Text,
+    List,
+    ListItem,
+} from 'native-base';
 
 class Home extends Component {
+
+    klik = () => {
+        Alert.alert("Halo");
+    };
+
     render() {
-        const {isiData} = this.props.KategoriReducer;
+        const {dataKategori} = this.props.kategoriReducer;
         return (
-            <View>
-                <Text style={styles.textStyle}>Halaman home</Text>
-                <Text style={styles.textStyle}>Isi reducer: {isiData}</Text>
-            </View>
+            <Container>
+                <Content>
+                    <List
+                        dataArray={dataKategori}
+                        renderRow={(item) =>
+                            <ListItem>
+                                <Text>{item.kategori}</Text>
+                            </ListItem>
+                        }>
+                    </List>
+                </Content>
+            </Container>
         )
     }
 }
@@ -24,7 +45,7 @@ const styles = StyleSheet.create({
 
 function mapStateToProps(state) {
     return {
-        KategoriReducer: state.KategoriReducer,
+        kategoriReducer: state.kategoriReducer,
     }
 }
 

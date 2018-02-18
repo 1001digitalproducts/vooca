@@ -1,6 +1,6 @@
-import KategoriReducer from './kategori/reducer';
+import kategoriReducer from './kategori/reducer';
 
 export {
-    KategoriReducer,
+    kategoriReducer,
 
 }

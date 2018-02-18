@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const baseURL = '';
+const baseURL = 'http://abc-huxuqg1k6euubqlqxhxx.lazyrest.arizalsaputro.me/';
 
 let instance = axios.create({
-    baseURL: baseURL
+    baseURL
 });
 
 export default instance;

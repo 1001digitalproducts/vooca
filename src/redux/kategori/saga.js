@@ -5,7 +5,7 @@ import * as type from '../type';
 export function* getDataKategori() {
     yield takeEvery(type.GET_DATA_KATEGORI, function* api() {
         try {
-            const response = yield call(axios.get, "kategori");
+            const response = yield call(axios.get, "coba");
             yield put({
                 type: type.GET_DATA_KATEGORI_S,
                 dataKategori: response.data
