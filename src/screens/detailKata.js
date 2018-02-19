@@ -1,18 +1,22 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {
+    StyleSheet,
+    Text,
+    View
+} from 'react-native';
 
-export default class DetailKata extends Component {
+export default class App extends Component {
     render() {
         return (
-            <View>
-                <Text style={styles.textStyle}>Ini halaman detail</Text>
+            <View style={styles.container}>
+                <Text>Halaman detail kategori</Text>
             </View>
-        )
+        );
     }
 }
 
 const styles = StyleSheet.create({
-    textStyle: {
-        fontSize: 18
-    }
+    container: {
+        flex: 1
+    },
 });

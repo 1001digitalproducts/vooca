@@ -2,7 +2,7 @@ import React from 'react';
 import {StackNavigator} from 'react-navigation';
 
 import Home from './screens/home';
-import DetailKata from './screens/detailKata'
+import DetailKata from './screens/detailKata';
 
 const RootNavigator = StackNavigator({
     Home: {

@@ -14,8 +14,10 @@ import {
 
 class Home extends Component {
 
-    klik = () => {
-        Alert.alert("Halo");
+    navigate = (item) =>{
+        Alert.alert(item.kategori);
+        const {navigation} = this.props;
+        navigation.navigate('DetailKata');
     };
 
     render() {
@@ -36,12 +38,6 @@ class Home extends Component {
         )
     }
 }
-
-const styles = StyleSheet.create({
-    textStyle: {
-        fontSize: 18
-    }
-});
 
 function mapStateToProps(state) {
     return {
