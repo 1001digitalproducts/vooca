@@ -1,22 +1,73 @@
 import React, {Component} from 'react';
 import {
     StyleSheet,
-    Text,
-    View
+    Alert
 } from 'react-native';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as kategoriActions from '../redux/kategori/actions';
+import {
+    Container,
+    Content,
+    List,
+    Text,
+    ListItem,
+} from 'native-base';
 
-export default class App extends Component {
+class DetailKata extends Component {
+    static navigationOptions = ({ navigation }) => {
+        const { params } = navigation.state;
+        const item = params ? params.item : null;
+
+        return {
+            title: item.kategori,
+        }
+    };
+
+    componentDidMount() {
+        const { params } = this.props.navigation.state;
+        const item = params ? params.item : null;
+        const {kategoriActions} = this.props;
+        kategoriActions.getKata(item.id);
+    }
+
     render() {
+        const {dataKata} = this.props.kategoriReducer;
+
         return (
-            <View style={styles.container}>
-                <Text>Halaman detail kategori</Text>
-            </View>
+            <Container>
+                <Content>
+                    <List
+                        dataArray={dataKata}
+                        renderRow={(item) =>
+                            <ListItem>
+                                <Text
+                                    style={{flex:1}}
+                                    onPress={()=>{
+                                        this.props.navigation.navigate('ArtiKata',{item})}
+                                    }
+                                >{item.kata}</Text>
+                            </ListItem>
+                        }>
+                    </List>
+                </Content>
+            </Container>
         );
     }
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
     },
 });
+
+function mapStateToProps(state) {
+    return {
+        kategoriReducer: state.kategoriReducer,
+    }
+}
+
+const mapDispatchToProps = (dispatch) => ({kategoriActions: bindActionCreators(kategoriActions, dispatch)});
+
+export default connect(mapStateToProps, mapDispatchToProps)(DetailKata);

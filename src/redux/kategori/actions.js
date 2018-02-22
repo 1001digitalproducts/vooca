@@ -1,7 +1,8 @@
 import * as type from '../type';
 
-export const getDataKategori = () => {
-    return {
-        type: type.GET_DATA_KATEGORI
+export const getKata = (id) =>{
+    return{
+        type: type.GET_DATA_KATA,
+        payload: id
     }
 };

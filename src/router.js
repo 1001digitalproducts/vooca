@@ -3,6 +3,7 @@ import {StackNavigator} from 'react-navigation';
 
 import Home from './screens/home';
 import DetailKata from './screens/detailKata';
+import ArtiKata from './screens/artiKata';
 
 const RootNavigator = StackNavigator({
     Home: {
@@ -10,7 +11,10 @@ const RootNavigator = StackNavigator({
         navigationOptions: { title: "Kategori" }
     },
     DetailKata: {
-        screen: DetailKata
+        screen: DetailKata,
+    },
+    ArtiKata: {
+        screen: ArtiKata,
     }
 });
 

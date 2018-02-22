@@ -1,24 +1,16 @@
 import React, {Component} from 'react';
-import {StyleSheet, Alert} from 'react-native';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as kategoriActions from '../redux/kategori/actions';
 import {
     Container,
     Content,
-    Button,
     Text,
     List,
     ListItem,
 } from 'native-base';
 
 class Home extends Component {
-
-    navigate = (item) =>{
-        Alert.alert(item.kategori);
-        const {navigation} = this.props;
-        navigation.navigate('DetailKata');
-    };
 
     render() {
         const {dataKategori} = this.props.kategoriReducer;
@@ -29,7 +21,12 @@ class Home extends Component {
                         dataArray={dataKategori}
                         renderRow={(item) =>
                             <ListItem>
-                                <Text>{item.kategori}</Text>
+                                <Text
+                                    style={{flex:1}}
+                                    onPress={()=>{
+                                        this.props.navigation.navigate('DetailKata',{item})}
+                                    }
+                                >{item.kategori}</Text>
                             </ListItem>
                         }>
                     </List>

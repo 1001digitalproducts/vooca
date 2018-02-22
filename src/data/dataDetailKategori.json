@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "idKategori": 1,
+    "kata": "Father",
+    "deskripsi":"Ayah"
+  },
+  {
+    "id": 1,
+    "idKategori": 1,
+    "kata": "Mother",
+    "deskripsi":"Ibu"
+  },
+  {
+    "id": 2,
+    "idKategori": 1,
+    "kata": "Brother",
+    "deskripsi":"Saudara (Laki-laki)"
+  },
+  {
+    "id": 3,
+    "idKategori": 2,
+    "kata": "Teacher",
+    "deskripsi":"Guru"
+  },
+  {
+    "id": 4,
+    "idKategori": 2,
+    "kata": "Home work",
+    "deskripsi":"Pekerjaan rumah (PR)"
+  },
+  {
+    "id": 5,
+    "idKategori": 2,
+    "kata": "Book",
+    "deskripsi":"Buku"
+  },
+  {
+    "id": 6,
+    "idKategori": 3,
+    "kata": "Rice",
+    "deskripsi":"Beras"
+  },
+  {
+    "id": 7,
+    "idKategori": 3,
+    "kata": "Bread",
+    "deskripsi":"Roti"
+  },
+  {
+    "id": 8,
+    "idKategori": 3,
+    "kata": "Apple",
+    "deskripsi":"Buah apel"
+  },
+  {
+    "id": 9,
+    "idKategori": 4,
+    "kata": "Door",
+    "deskripsi":"Pintu"
+  },
+  {
+    "id":10,
+    "idKategori": 4,
+    "kata": "Window",
+    "deskripsi":"Jendela"
+  },
+  {
+    "id": 11,
+    "idKategori": 4,
+    "kata": "Tile",
+    "deskripsi":"Ubin"
+  },
+  {
+    "id": 12,
+    "idKategori": 5,
+    "kata": "Red",
+    "deskripsi":"Merah"
+  },
+  {
+    "id": 13,
+    "idKategori": 5,
+    "kata": "Yellow",
+    "deskripsi":"Kuning"
+  },
+  {
+    "id": 14,
+    "idKategori": 5,
+    "kata": "Blue",
+    "deskripsi":"Biru"
+  },
+  {
+    "id": 15,
+    "idKategori": 5,
+    "kata": "Green",
+    "deskripsi":"Hijau"
+  },
+  {
+    "id": 16,
+    "idKategori": 2,
+    "kata": "Knowledge",
+    "deskripsi":"Ilmu pengetahuan"
+  },
+  {
+    "id": 17,
+    "idKategori": 3,
+    "kata": "Spinach",
+    "deskripsi":"Bayam"
+  },
+  {
+    "id": 18,
+    "idKategori": 4,
+    "kata": "Bed",
+    "deskripsi":"Tempat tidur"
+  },
+  {
+    "id": 19,
+    "idKategori": 3,
+    "kata": "Oil",
+    "deskripsi":"Minyak"
+  },
+  {
+    "id": 20,
+    "idKategori": 5,
+    "kata": "Black",
+    "deskripsi":"Hitam"
+  },
+  {
+    "id": 21,
+    "idKategori": 4,
+    "kata": "Television",
+    "deskripsi":"Televisi"
+  },
+  {
+    "id": 22,
+    "idKategori": 3,
+    "kata": "Water",
+    "deskripsi":"Air"
+  },
+  {
+    "id": 23,
+    "idKategori": 1,
+    "kata": "Siblings",
+    "deskripsi":"Saudara kandung"
+  },
+  {
+    "id": 24,
+    "idKategori": 2,
+    "kata": "Blackboard",
+    "deskripsi":"Panpan tulis"
+  }
+]
