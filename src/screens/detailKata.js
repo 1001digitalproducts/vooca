@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import {
-    StyleSheet,
-    Alert
-} from 'react-native';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as kategoriActions from '../redux/kategori/actions';
@@ -15,6 +11,7 @@ import {
 } from 'native-base';
 
 class DetailKata extends Component {
+
     static navigationOptions = ({ navigation }) => {
         const { params } = navigation.state;
         const item = params ? params.item : null;
@@ -55,12 +52,6 @@ class DetailKata extends Component {
         );
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
-});
 
 function mapStateToProps(state) {
     return {

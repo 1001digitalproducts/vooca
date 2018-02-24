@@ -1,22 +1,33 @@
 import React, {Component} from 'react';
 import {
-    StyleSheet,
+    Container,
+    Content,
+    List,
     Text,
-    View
-} from 'react-native';
+    ListItem,
+} from 'native-base';
 
 export default class App extends Component {
+
+    static navigationOptions = ({ navigation }) => {
+        const { params } = navigation.state;
+        const item = params ? params.item : null;
+
+        return {
+            title: item.kata,
+        }
+    };
+
     render() {
+        const { params } = this.props.navigation.state;
+        const item = params ? params.item : null;
+
         return (
-            <View style={styles.container}>
-                <Text>Write here!</Text>
-            </View>
+            <Container>
+                <Content>
+                    <Text>{item.arti}</Text>
+                </Content>
+            </Container>
         );
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1
-    },
-});
