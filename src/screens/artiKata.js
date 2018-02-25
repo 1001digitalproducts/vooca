@@ -5,12 +5,15 @@ import {
     List,
     Text,
     ListItem,
+    Card,
+    CardItem,
+    Body
 } from 'native-base';
 
 export default class App extends Component {
 
-    static navigationOptions = ({ navigation }) => {
-        const { params } = navigation.state;
+    static navigationOptions = ({navigation}) => {
+        const {params} = navigation.state;
         const item = params ? params.item : null;
 
         return {
@@ -19,13 +22,21 @@ export default class App extends Component {
     };
 
     render() {
-        const { params } = this.props.navigation.state;
+        const {params} = this.props.navigation.state;
         const item = params ? params.item : null;
 
         return (
             <Container>
                 <Content>
-                    <Text>{item.arti}</Text>
+                    <Card>
+                        <CardItem>
+                            <Body>
+                            <Text>
+                                {item.arti}
+                            </Text>
+                            </Body>
+                        </CardItem>
+                    </Card>
                 </Content>
             </Container>
         );

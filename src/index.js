@@ -15,7 +15,7 @@ export default class App extends React.Component {
     render() {
         return (
             <Provider store={store}>
-                <RootNavigator {...this.props}/>
+                <RootNavigator/>
             </Provider>
         );
     }
