@@ -6,3 +6,10 @@ export const getKata = (id) => {
         payload: id
     }
 };
+
+export const cariKategori = (val) =>{
+    return{
+        type: type.CARI_KATEGORI,
+        payload: val
+    }
+};
