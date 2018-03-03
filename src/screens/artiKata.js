@@ -10,14 +10,15 @@ import {
     Body
 } from 'native-base';
 
-export default class App extends Component {
+export default class ArtiKata extends Component {
 
     static navigationOptions = ({navigation}) => {
-        const {params} = navigation.state;
-        const item = params ? params.item : null;
-
         return {
-            title: item.kata,
+            title: "Terjemahan",
+            headerTintColor: '#fff',
+            headerStyle: {
+                backgroundColor: '#1DCFAC'
+            },
         }
     };
 
@@ -29,6 +30,9 @@ export default class App extends Component {
             <Container>
                 <Content>
                     <Card>
+                        <CardItem header>
+                            <Text>{item.kata}</Text>
+                        </CardItem>
                         <CardItem>
                             <Body>
                             <Text>

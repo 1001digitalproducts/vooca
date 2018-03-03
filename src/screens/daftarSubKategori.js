@@ -5,19 +5,22 @@ import * as kategoriActions from '../redux/kategori/actions';
 import {
     Container,
     Content,
-    Text,
     List,
+    Text,
     ListItem,
     Item,
     Input,
     Icon
 } from 'native-base';
 
-class Home extends Component {
+class DaftarSubKategori extends Component {
 
     static navigationOptions = ({navigation}) => {
+        const {params} = navigation.state;
+        const item = params ? params.item : null;
+
         return {
-            title: "Kategori",
+            title: item.kategori,
             headerTintColor: '#fff',
             headerStyle: {
                 backgroundColor: '#1DCFAC'
@@ -25,26 +28,33 @@ class Home extends Component {
         }
     };
 
+    componentDidMount() {
+        const {params} = this.props.navigation.state;
+        const item = params ? params.item : null;
+        const {kategoriActions} = this.props;
+        kategoriActions.getKata(item.id);
+    }
+
     constructor(props) {
         super(props);
         this.state = {
             keyword: ""
-        };
+        }
     }
 
     render() {
+        const {dataKata} = this.props.kategoriReducer;
         const {keyword} = this.state;
-        const {dataKategori} = this.props.kategoriReducer;
         let filteredData;
 
         if (keyword.length !== 0) {
-            filteredData = dataKategori.filter(
+            filteredData = dataKata.filter(
                 (val) => {
-                    return val.kategori.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
+                    return val.kata.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
                 }
             );
         } else {
-            filteredData = dataKategori
+            filteredData = dataKata
         }
 
         return (
@@ -65,16 +75,16 @@ class Home extends Component {
                                 <Text
                                     style={{flex: 1}}
                                     onPress={() => {
-                                        this.props.navigation.navigate('SubKategori', {item})
+                                        this.props.navigation.navigate('ArtiKata', {item})
                                     }
                                     }
-                                >{item.kategori}</Text>
+                                >{item.kata}</Text>
                             </ListItem>
                         }>
                     </List>
                 </Content>
             </Container>
-        )
+        );
     }
 }
 
@@ -86,4 +96,4 @@ function mapStateToProps(state) {
 
 const mapDispatchToProps = (dispatch) => ({kategoriActions: bindActionCreators(kategoriActions, dispatch)});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(DaftarSubKategori);

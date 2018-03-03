@@ -2,16 +2,15 @@ import React from 'react';
 import {StackNavigator} from 'react-navigation';
 
 import Home from './screens/home';
-import DetailKata from './screens/detailKata';
+import SubKategori from './screens/daftarSubKategori';
 import ArtiKata from './screens/artiKata';
 
 const RootNavigator = StackNavigator({
     Home: {
         screen: Home,
-        navigationOptions: { title: "Kategori" }
     },
-    DetailKata: {
-        screen: DetailKata,
+    SubKategori: {
+        screen: SubKategori,
     },
     ArtiKata: {
         screen: ArtiKata,
