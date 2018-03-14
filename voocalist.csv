@@ -1,0 +1,132 @@
+﻿id,idKategori,kata,arti
+0,1,Book,Buku
+1,1,Pencil Case,Kotak Pencil
+2,1,Pen,Pena / Pulpen
+3,1,Ruler,Penggaris
+4,1,Pencil,Pensil
+5,1,Eraser,Penghapus
+6,1,Clock,Jam
+7,1,Crayon,Krayon
+8,1,Scissors,Gunting
+9,1,Sharpener,Rautan
+10,1,Stapler,Stepler
+11,1,Bag,Tas
+12,1,Whiteboard,Papan Tulis
+13,1,Calendar,Kalender
+14,1,Map,Peta
+15,1,Window,Jendela
+16,1,Flag,Bendera
+17,1,Broom,Sapu
+18,1,Rubbish Bin,Tempat Sampah
+19,2,Couli Flower,Bunga Kol
+20,2,Spinach,Bayam
+21,2,Broccoli,Brokoli
+22,2,Corn,Jagung
+23,2,Carrot,Wortel
+24,2,Potato,Kentang
+25,2,Chili,Cabe
+26,2,Long Bean,Kacang Panjang
+27,2,Tomato,Tomat
+28,2,Garlic,Bawang Putih
+29,2,Bean,Kacang
+30,2,Onion,Bawang
+31,2,Cabbage,Kubis
+32,2,Eggplant,Terong
+33,2,Pumpkin,Labu
+34,2,Bean Spout,Tauge
+35,2,Green Pepper,Paprika Hijau
+36,2,Cucumber,Timun
+37,2,Mushroom,Jamur
+38,2,Sweet Potato,Ubi
+39,2,Lettuce,Selada
+40,2,Green Onion,Bawang Daun
+41,3,Papaya,Pepaya
+42,3,Pear,Pir
+43,3,Banana,Pisang
+44,3,Guava,Jambu
+45,3,Mango,Mangga
+46,3,Apple,Apel
+47,3,Pineapple,Nanas
+48,3,Rambutan,Rambutan
+49,3,Strawbbery,Stroberi
+50,3,Mangosteen,Manggis
+51,3,Durian,Durian
+52,3,Orange,Jeruk
+53,3,Grape,Anggur
+54,3,Melon,Melon
+55,3,Kiwi,Kiwi
+56,3,Avocado,Alpukat
+57,3,Lemon,Lemon
+58,3,Cherry,Ceri
+59,3,Watermelon,Semangka
+60,3,Persimmon,Kesemak
+61,3,Peach,Persik
+62,3,Star Fruit,Belimbing
+63,3,Dragon Fruit,Buah Naga
+64,4,Cat,Kucing
+65,4,Dog,Anjing
+66,4,Bird,Burung
+67,4,Goat,Kambing
+68,4,Rabbit,Kelinci
+69,4,Cock,Ayam Jago
+70,4,Duck,Bebek
+71,4,Cow,Sapi
+72,4,Buffalo,Kerbau
+73,4,Horse,Kuda
+74,4,Sheep,Domba
+75,4,Monkey,Monyet
+76,4,Tiger,Harimau
+77,4,Zebra,Zebra
+78,4,Lion,Singa
+79,4,Fox,Rubah
+80,4,Elepant,Gajah
+81,4,Snake,Ular
+82,4,Giraffe,Jerapah
+83,4,Crocodile,Buaya
+84,4,Rhinoceros,Badak
+85,4,Bear,Beruang
+86,4,Camel,Unta
+87,4,Penguin,Pinguin
+88,4,Owl,Burung Hantu
+89,4,Fish,Ikan
+90,4,Shark,Jhiu
+91,4,Panda,Panda
+92,4,Koala,Koala
+93,4,Pig,Babi
+94,4,Mouse,Tikus
+95,4,Chicken,Ayam
+96,4,Lizard,Kadal
+97,5,Father,Ayah
+98,5,Mother,Ibu
+99,5,Brother,Saudara Laki-laki
+100,5,Sister,Saudara Perempuan
+101,5,Grandfather,Kakek
+102,5,Grandmother,Nenek
+103,5,Uncle,Paman
+104,5,Aunt,Bibi
+105,5,Cousin,Sepupu
+106,5,Doughter,Anak Kandung Perempuan
+107,5,Son,Anak Kandung Laki-laki
+108,5,Parent,Orangtua
+109,5,Husband,Suami
+110,5,Wife,Istri
+111,5,Adoptive father,Ayah Angkat
+112,5,Adoptive mother,Ibu Angkat
+113,5,Step father,Ayah Tiri
+114,5,Step mother,Ibu Tiri
+115,5,Child,Anak
+116,5,Boy,Anak laki-laki
+117,5,Girl,Anak Perempuan
+118,5,Children,Anak-anak
+119,6,Guitar,Gitar
+120,6,Piano,piano
+121,6,Harmonica,Harmonika
+122,6,Harp,Harpa
+123,6,Triangle,Triangle
+124,6,Violin,Biola
+125,6,Xylophone,Gambang
+126,6,Flute,Seruling
+127,6,Accordion,Akordeon
+128,6,Drum,Drum
+129,6,Clarinet,klarinet
+130,6,Saxophone,Saksofon

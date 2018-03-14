@@ -2,151 +2,787 @@
   {
     "id": 0,
     "idKategori": 1,
-    "kata": "Father",
-    "arti":"Ayah"
+    "kata": "Book",
+    "arti": "Buku"
   },
   {
     "id": 1,
     "idKategori": 1,
-    "kata": "Mother",
-    "arti":"Ibu"
+    "kata": "Pencil Case",
+    "arti": "Kotak Pencil"
   },
   {
     "id": 2,
     "idKategori": 1,
-    "kata": "Brother",
-    "arti":"Saudara (Laki-laki)"
+    "kata": "Pen",
+    "arti": "Pena / Pulpen"
   },
   {
     "id": 3,
-    "idKategori": 2,
-    "kata": "Teacher",
-    "arti":"Guru"
+    "idKategori": 1,
+    "kata": "Ruler",
+    "arti": "Penggaris"
   },
   {
     "id": 4,
-    "idKategori": 2,
-    "kata": "Home work",
-    "arti":"Pekerjaan rumah (PR)"
+    "idKategori": 1,
+    "kata": "Pencil",
+    "arti": "Pensil"
   },
   {
     "id": 5,
-    "idKategori": 2,
-    "kata": "Book",
-    "arti":"Buku"
+    "idKategori": 1,
+    "kata": "Eraser",
+    "arti": "Penghapus"
   },
   {
     "id": 6,
-    "idKategori": 3,
-    "kata": "Rice",
-    "arti":"Beras"
+    "idKategori": 1,
+    "kata": "Clock",
+    "arti": "Jam"
   },
   {
     "id": 7,
-    "idKategori": 3,
-    "kata": "Bread",
-    "arti":"Roti"
+    "idKategori": 1,
+    "kata": "Crayon",
+    "arti": "Krayon"
   },
   {
     "id": 8,
-    "idKategori": 3,
-    "kata": "Apple",
-    "arti":"Buah apel"
+    "idKategori": 1,
+    "kata": "Scissors",
+    "arti": "Gunting"
   },
   {
     "id": 9,
-    "idKategori": 4,
-    "kata": "Door",
-    "arti":"Pintu"
+    "idKategori": 1,
+    "kata": "Sharpener",
+    "arti": "Rautan"
   },
   {
-    "id":10,
-    "idKategori": 4,
-    "kata": "Window",
-    "arti":"Jendela"
+    "id": 10,
+    "idKategori": 1,
+    "kata": "Stapler",
+    "arti": "Stepler"
   },
   {
     "id": 11,
-    "idKategori": 4,
-    "kata": "Tile",
-    "arti":"Ubin"
+    "idKategori": 1,
+    "kata": "Bag",
+    "arti": "Tas"
   },
   {
     "id": 12,
-    "idKategori": 5,
-    "kata": "Red",
-    "arti":"Merah"
+    "idKategori": 1,
+    "kata": "Whiteboard",
+    "arti": "Papan Tulis"
   },
   {
     "id": 13,
-    "idKategori": 5,
-    "kata": "Yellow",
-    "arti":"Kuning"
+    "idKategori": 1,
+    "kata": "Calendar",
+    "arti": "Kalender"
   },
   {
     "id": 14,
-    "idKategori": 5,
-    "kata": "Blue",
-    "arti":"Biru"
+    "idKategori": 1,
+    "kata": "Map",
+    "arti": "Peta"
   },
   {
     "id": 15,
-    "idKategori": 5,
-    "kata": "Green",
-    "arti":"Hijau"
+    "idKategori": 1,
+    "kata": "Window",
+    "arti": "Jendela"
   },
   {
     "id": 16,
-    "idKategori": 2,
-    "kata": "Knowledge",
-    "arti":"Ilmu pengetahuan"
+    "idKategori": 1,
+    "kata": "Flag",
+    "arti": "Bendera"
   },
   {
     "id": 17,
-    "idKategori": 3,
-    "kata": "Spinach",
-    "arti":"Bayam"
+    "idKategori": 1,
+    "kata": "Broom",
+    "arti": "Sapu"
   },
   {
     "id": 18,
-    "idKategori": 4,
-    "kata": "Bed",
-    "arti":"Tempat tidur"
+    "idKategori": 1,
+    "kata": "Rubbish Bin",
+    "arti": "Tempat Sampah"
   },
   {
     "id": 19,
-    "idKategori": 3,
-    "kata": "Oil",
-    "arti":"Minyak"
+    "idKategori": 2,
+    "kata": "Couli Flower",
+    "arti": "Bunga Kol"
   },
   {
     "id": 20,
-    "idKategori": 5,
-    "kata": "Black",
-    "arti":"Hitam"
+    "idKategori": 2,
+    "kata": "Spinach",
+    "arti": "Bayam"
   },
   {
     "id": 21,
-    "idKategori": 4,
-    "kata": "Television",
-    "arti":"Televisi"
+    "idKategori": 2,
+    "kata": "Broccoli",
+    "arti": "Brokoli"
   },
   {
     "id": 22,
-    "idKategori": 3,
-    "kata": "Water",
-    "arti":"Air"
+    "idKategori": 2,
+    "kata": "Corn",
+    "arti": "Jagung"
   },
   {
     "id": 23,
-    "idKategori": 1,
-    "kata": "Siblings",
-    "arti":"Saudara kandung"
+    "idKategori": 2,
+    "kata": "Carrot",
+    "arti": "Wortel"
   },
   {
     "id": 24,
     "idKategori": 2,
-    "kata": "Blackboard",
-    "arti":"Panpan tulis"
+    "kata": "Potato",
+    "arti": "Kentang"
+  },
+  {
+    "id": 25,
+    "idKategori": 2,
+    "kata": "Chili",
+    "arti": "Cabe"
+  },
+  {
+    "id": 26,
+    "idKategori": 2,
+    "kata": "Long Bean",
+    "arti": "Kacang Panjang"
+  },
+  {
+    "id": 27,
+    "idKategori": 2,
+    "kata": "Tomato",
+    "arti": "Tomat"
+  },
+  {
+    "id": 28,
+    "idKategori": 2,
+    "kata": "Garlic",
+    "arti": "Bawang Putih"
+  },
+  {
+    "id": 29,
+    "idKategori": 2,
+    "kata": "Bean",
+    "arti": "Kacang"
+  },
+  {
+    "id": 30,
+    "idKategori": 2,
+    "kata": "Onion",
+    "arti": "Bawang"
+  },
+  {
+    "id": 31,
+    "idKategori": 2,
+    "kata": "Cabbage",
+    "arti": "Kubis"
+  },
+  {
+    "id": 32,
+    "idKategori": 2,
+    "kata": "Eggplant",
+    "arti": "Terong"
+  },
+  {
+    "id": 33,
+    "idKategori": 2,
+    "kata": "Pumpkin",
+    "arti": "Labu"
+  },
+  {
+    "id": 34,
+    "idKategori": 2,
+    "kata": "Bean Spout",
+    "arti": "Tauge"
+  },
+  {
+    "id": 35,
+    "idKategori": 2,
+    "kata": "Green Pepper",
+    "arti": "Paprika Hijau"
+  },
+  {
+    "id": 36,
+    "idKategori": 2,
+    "kata": "Cucumber",
+    "arti": "Timun"
+  },
+  {
+    "id": 37,
+    "idKategori": 2,
+    "kata": "Mushroom",
+    "arti": "Jamur"
+  },
+  {
+    "id": 38,
+    "idKategori": 2,
+    "kata": "Sweet Potato",
+    "arti": "Ubi"
+  },
+  {
+    "id": 39,
+    "idKategori": 2,
+    "kata": "Lettuce",
+    "arti": "Selada"
+  },
+  {
+    "id": 40,
+    "idKategori": 2,
+    "kata": "Green Onion",
+    "arti": "Bawang Daun"
+  },
+  {
+    "id": 41,
+    "idKategori": 3,
+    "kata": "Papaya",
+    "arti": "Pepaya"
+  },
+  {
+    "id": 42,
+    "idKategori": 3,
+    "kata": "Pear",
+    "arti": "Pir"
+  },
+  {
+    "id": 43,
+    "idKategori": 3,
+    "kata": "Banana",
+    "arti": "Pisang"
+  },
+  {
+    "id": 44,
+    "idKategori": 3,
+    "kata": "Guava",
+    "arti": "Jambu"
+  },
+  {
+    "id": 45,
+    "idKategori": 3,
+    "kata": "Mango",
+    "arti": "Mangga"
+  },
+  {
+    "id": 46,
+    "idKategori": 3,
+    "kata": "Apple",
+    "arti": "Apel"
+  },
+  {
+    "id": 47,
+    "idKategori": 3,
+    "kata": "Pineapple",
+    "arti": "Nanas"
+  },
+  {
+    "id": 48,
+    "idKategori": 3,
+    "kata": "Rambutan",
+    "arti": "Rambutan"
+  },
+  {
+    "id": 49,
+    "idKategori": 3,
+    "kata": "Strawbbery",
+    "arti": "Stroberi"
+  },
+  {
+    "id": 50,
+    "idKategori": 3,
+    "kata": "Mangosteen",
+    "arti": "Manggis"
+  },
+  {
+    "id": 51,
+    "idKategori": 3,
+    "kata": "Durian",
+    "arti": "Durian"
+  },
+  {
+    "id": 52,
+    "idKategori": 3,
+    "kata": "Orange",
+    "arti": "Jeruk"
+  },
+  {
+    "id": 53,
+    "idKategori": 3,
+    "kata": "Grape",
+    "arti": "Anggur"
+  },
+  {
+    "id": 54,
+    "idKategori": 3,
+    "kata": "Melon",
+    "arti": "Melon"
+  },
+  {
+    "id": 55,
+    "idKategori": 3,
+    "kata": "Kiwi",
+    "arti": "Kiwi"
+  },
+  {
+    "id": 56,
+    "idKategori": 3,
+    "kata": "Avocado",
+    "arti": "Alpukat"
+  },
+  {
+    "id": 57,
+    "idKategori": 3,
+    "kata": "Lemon",
+    "arti": "Lemon"
+  },
+  {
+    "id": 58,
+    "idKategori": 3,
+    "kata": "Cherry",
+    "arti": "Ceri"
+  },
+  {
+    "id": 59,
+    "idKategori": 3,
+    "kata": "Watermelon",
+    "arti": "Semangka"
+  },
+  {
+    "id": 60,
+    "idKategori": 3,
+    "kata": "Persimmon",
+    "arti": "Kesemak"
+  },
+  {
+    "id": 61,
+    "idKategori": 3,
+    "kata": "Peach",
+    "arti": "Persik"
+  },
+  {
+    "id": 62,
+    "idKategori": 3,
+    "kata": "Star Fruit",
+    "arti": "Belimbing"
+  },
+  {
+    "id": 63,
+    "idKategori": 3,
+    "kata": "Dragon Fruit",
+    "arti": "Buah Naga"
+  },
+  {
+    "id": 64,
+    "idKategori": 4,
+    "kata": "Cat",
+    "arti": "Kucing"
+  },
+  {
+    "id": 65,
+    "idKategori": 4,
+    "kata": "Dog",
+    "arti": "Anjing"
+  },
+  {
+    "id": 66,
+    "idKategori": 4,
+    "kata": "Bird",
+    "arti": "Burung"
+  },
+  {
+    "id": 67,
+    "idKategori": 4,
+    "kata": "Goat",
+    "arti": "Kambing"
+  },
+  {
+    "id": 68,
+    "idKategori": 4,
+    "kata": "Rabbit",
+    "arti": "Kelinci"
+  },
+  {
+    "id": 69,
+    "idKategori": 4,
+    "kata": "Cock",
+    "arti": "Ayam Jago"
+  },
+  {
+    "id": 70,
+    "idKategori": 4,
+    "kata": "Duck",
+    "arti": "Bebek"
+  },
+  {
+    "id": 71,
+    "idKategori": 4,
+    "kata": "Cow",
+    "arti": "Sapi"
+  },
+  {
+    "id": 72,
+    "idKategori": 4,
+    "kata": "Buffalo",
+    "arti": "Kerbau"
+  },
+  {
+    "id": 73,
+    "idKategori": 4,
+    "kata": "Horse",
+    "arti": "Kuda"
+  },
+  {
+    "id": 74,
+    "idKategori": 4,
+    "kata": "Sheep",
+    "arti": "Domba"
+  },
+  {
+    "id": 75,
+    "idKategori": 4,
+    "kata": "Monkey",
+    "arti": "Monyet"
+  },
+  {
+    "id": 76,
+    "idKategori": 4,
+    "kata": "Tiger",
+    "arti": "Harimau"
+  },
+  {
+    "id": 77,
+    "idKategori": 4,
+    "kata": "Zebra",
+    "arti": "Zebra"
+  },
+  {
+    "id": 78,
+    "idKategori": 4,
+    "kata": "Lion",
+    "arti": "Singa"
+  },
+  {
+    "id": 79,
+    "idKategori": 4,
+    "kata": "Fox",
+    "arti": "Rubah"
+  },
+  {
+    "id": 80,
+    "idKategori": 4,
+    "kata": "Elepant",
+    "arti": "Gajah"
+  },
+  {
+    "id": 81,
+    "idKategori": 4,
+    "kata": "Snake",
+    "arti": "Ular"
+  },
+  {
+    "id": 82,
+    "idKategori": 4,
+    "kata": "Giraffe",
+    "arti": "Jerapah"
+  },
+  {
+    "id": 83,
+    "idKategori": 4,
+    "kata": "Crocodile",
+    "arti": "Buaya"
+  },
+  {
+    "id": 84,
+    "idKategori": 4,
+    "kata": "Rhinoceros",
+    "arti": "Badak"
+  },
+  {
+    "id": 85,
+    "idKategori": 4,
+    "kata": "Bear",
+    "arti": "Beruang"
+  },
+  {
+    "id": 86,
+    "idKategori": 4,
+    "kata": "Camel",
+    "arti": "Unta"
+  },
+  {
+    "id": 87,
+    "idKategori": 4,
+    "kata": "Penguin",
+    "arti": "Pinguin"
+  },
+  {
+    "id": 88,
+    "idKategori": 4,
+    "kata": "Owl",
+    "arti": "Burung Hantu"
+  },
+  {
+    "id": 89,
+    "idKategori": 4,
+    "kata": "Fish",
+    "arti": "Ikan"
+  },
+  {
+    "id": 90,
+    "idKategori": 4,
+    "kata": "Shark",
+    "arti": "Jhiu"
+  },
+  {
+    "id": 91,
+    "idKategori": 4,
+    "kata": "Panda",
+    "arti": "Panda"
+  },
+  {
+    "id": 92,
+    "idKategori": 4,
+    "kata": "Koala",
+    "arti": "Koala"
+  },
+  {
+    "id": 93,
+    "idKategori": 4,
+    "kata": "Pig",
+    "arti": "Babi"
+  },
+  {
+    "id": 94,
+    "idKategori": 4,
+    "kata": "Mouse",
+    "arti": "Tikus"
+  },
+  {
+    "id": 95,
+    "idKategori": 4,
+    "kata": "Chicken",
+    "arti": "Ayam"
+  },
+  {
+    "id": 96,
+    "idKategori": 4,
+    "kata": "Lizard",
+    "arti": "Kadal"
+  },
+  {
+    "id": 97,
+    "idKategori": 5,
+    "kata": "Father",
+    "arti": "Ayah"
+  },
+  {
+    "id": 98,
+    "idKategori": 5,
+    "kata": "Mother",
+    "arti": "Ibu"
+  },
+  {
+    "id": 99,
+    "idKategori": 5,
+    "kata": "Brother",
+    "arti": "Saudara Laki-laki"
+  },
+  {
+    "id": 100,
+    "idKategori": 5,
+    "kata": "Sister",
+    "arti": "Saudara Perempuan"
+  },
+  {
+    "id": 101,
+    "idKategori": 5,
+    "kata": "Grandfather",
+    "arti": "Kakek"
+  },
+  {
+    "id": 102,
+    "idKategori": 5,
+    "kata": "Grandmother",
+    "arti": "Nenek"
+  },
+  {
+    "id": 103,
+    "idKategori": 5,
+    "kata": "Uncle",
+    "arti": "Paman"
+  },
+  {
+    "id": 104,
+    "idKategori": 5,
+    "kata": "Aunt",
+    "arti": "Bibi"
+  },
+  {
+    "id": 105,
+    "idKategori": 5,
+    "kata": "Cousin",
+    "arti": "Sepupu"
+  },
+  {
+    "id": 106,
+    "idKategori": 5,
+    "kata": "Doughter",
+    "arti": "Anak Kandung Perempuan"
+  },
+  {
+    "id": 107,
+    "idKategori": 5,
+    "kata": "Son",
+    "arti": "Anak Kandung Laki-laki"
+  },
+  {
+    "id": 108,
+    "idKategori": 5,
+    "kata": "Parent",
+    "arti": "Orangtua"
+  },
+  {
+    "id": 109,
+    "idKategori": 5,
+    "kata": "Husband",
+    "arti": "Suami"
+  },
+  {
+    "id": 110,
+    "idKategori": 5,
+    "kata": "Wife",
+    "arti": "Istri"
+  },
+  {
+    "id": 111,
+    "idKategori": 5,
+    "kata": "Adoptive father",
+    "arti": "Ayah Angkat"
+  },
+  {
+    "id": 112,
+    "idKategori": 5,
+    "kata": "Adoptive mother",
+    "arti": "Ibu Angkat"
+  },
+  {
+    "id": 113,
+    "idKategori": 5,
+    "kata": "Step father",
+    "arti": "Ayah Tiri"
+  },
+  {
+    "id": 114,
+    "idKategori": 5,
+    "kata": "Step mother",
+    "arti": "Ibu Tiri"
+  },
+  {
+    "id": 115,
+    "idKategori": 5,
+    "kata": "Child",
+    "arti": "Anak"
+  },
+  {
+    "id": 116,
+    "idKategori": 5,
+    "kata": "Boy",
+    "arti": "Anak laki-laki"
+  },
+  {
+    "id": 117,
+    "idKategori": 5,
+    "kata": "Girl",
+    "arti": "Anak Perempuan"
+  },
+  {
+    "id": 118,
+    "idKategori": 5,
+    "kata": "Children",
+    "arti": "Anak-anak"
+  },
+  {
+    "id": 119,
+    "idKategori": 6,
+    "kata": "Guitar",
+    "arti": "Gitar"
+  },
+  {
+    "id": 120,
+    "idKategori": 6,
+    "kata": "Piano",
+    "arti": "piano"
+  },
+  {
+    "id": 121,
+    "idKategori": 6,
+    "kata": "Harmonica",
+    "arti": "Harmonika"
+  },
+  {
+    "id": 122,
+    "idKategori": 6,
+    "kata": "Harp",
+    "arti": "Harpa"
+  },
+  {
+    "id": 123,
+    "idKategori": 6,
+    "kata": "Triangle",
+    "arti": "Triangle"
+  },
+  {
+    "id": 124,
+    "idKategori": 6,
+    "kata": "Violin",
+    "arti": "Biola"
+  },
+  {
+    "id": 125,
+    "idKategori": 6,
+    "kata": "Xylophone",
+    "arti": "Gambang"
+  },
+  {
+    "id": 126,
+    "idKategori": 6,
+    "kata": "Flute",
+    "arti": "Seruling"
+  },
+  {
+    "id": 127,
+    "idKategori": 6,
+    "kata": "Accordion",
+    "arti": "Akordeon"
+  },
+  {
+    "id": 128,
+    "idKategori": 6,
+    "kata": "Drum",
+    "arti": "Drum"
+  },
+  {
+    "id": 129,
+    "idKategori": 6,
+    "kata": "Clarinet",
+    "arti": "klarinet"
+  },
+  {
+    "id": 130,
+    "idKategori": 6,
+    "kata": "Saxophone",
+    "arti": "Saksofon"
   }
 ]

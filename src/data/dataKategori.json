@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "kategori": "Family"
+    "kategori": "School Supplies"
   },
   {
     "id": 2,
-    "kategori": "School"
+    "kategori": "Vegetables"
   },
   {
     "id": 3,
-    "kategori": "Food"
+    "kategori": "Fruits"
   },
   {
     "id": 4,
-    "kategori": "House"
+    "kategori": "Animals"
   },
   {
     "id": 5,
-    "kategori": "Color"
+    "kategori": "Family"
+  },
+  {
+    "id": 6,
+    "kategori": "Musical Instruments"
   }
 ]
