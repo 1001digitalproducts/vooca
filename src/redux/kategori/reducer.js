@@ -12,8 +12,12 @@ const initialState = {
 const KategoriReducer = (state = initialState, action) => {
     switch (action.type) {
         case type.GET_DATA_KATA:
-            const dataFilter = dataKata.filter((val)=>{
-                return val.idKategori === action.payload
+            const indexData = categories.findIndex((val) => {
+                return val.kategori === action.payload
+            });
+
+            const dataFilter = dataKata.filter((val) => {
+                return val.idKategori === categories[indexData].id
             });
 
             return {

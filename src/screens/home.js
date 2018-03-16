@@ -1,82 +1,79 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import {StyleSheet, View, TouchableOpacity} from 'react-native';
 import {bindActionCreators} from 'redux';
 import * as kategoriActions from '../redux/kategori/actions';
+import CategoriesImage from '../components/imageCategories';
 import {
     Container,
     Content,
-    Text,
-    List,
-    ListItem,
-    Item,
-    Input,
-    Icon
+    Text
 } from 'native-base';
+import GridLayout from 'react-native-layout-grid';
 
 class Home extends Component {
 
     static navigationOptions = ({navigation}) => {
         return {
-            title: "Kategori",
+            title: "Categories",
             headerTintColor: '#fff',
             headerStyle: {
                 backgroundColor: '#1DCFAC'
-            },
+            }
         }
     };
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            keyword: ""
-        };
-    }
-
     render() {
-        const {keyword} = this.state;
         const {dataKategori} = this.props.kategoriReducer;
-        let filteredData;
 
-        if (keyword.length !== 0) {
-            filteredData = dataKategori.filter(
-                (val) => {
-                    return val.kategori.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
-                }
-            );
-        } else {
-            filteredData = dataKategori
-        }
+        const data = dataKategori.map((value) => {
+            return value.kategori
+        });
 
         return (
             <Container>
                 <Content>
-                    <Item rounded style={{marginTop: 5}}>
-                        <Input placeholder='Cari...' onChangeText={(text) => {
-                            this.setState({
-                                keyword: text
-                            })
-                        }}/>
-                        <Icon active name='search'/>
-                    </Item>
-                    <List
-                        dataArray={filteredData}
-                        renderRow={(item) =>
-                            <ListItem>
-                                <Text
-                                    style={{flex: 1}}
+                    <GridLayout
+                        style={{marginTop: 10}}
+                        items={data}
+                        itemsPerRow={2}
+                        renderItem={(item) => (
+                            <View style={styles.card}>
+                                <TouchableOpacity
+                                    style={styles.item}
                                     onPress={() => {
                                         this.props.navigation.navigate('SubKategori', {item})
-                                    }
-                                    }
-                                >{item.kategori}</Text>
-                            </ListItem>
-                        }>
-                    </List>
+                                    }}
+                                >
+                                    <CategoriesImage item={item} {...this.props}/>
+                                    <Text style={styles.name} >
+                                        {
+                                            item
+                                        }
+                                    </Text>
+                                </TouchableOpacity>
+                            </View>
+                        )}
+                    />
                 </Content>
             </Container>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    card: {
+        flex: 1,
+    },
+    item: {
+        height: 150,
+    },
+    name: {
+        fontSize: 12,
+        textAlign: 'center',
+        color: '#000000'
+    }
+});
 
 function mapStateToProps(state) {
     return {

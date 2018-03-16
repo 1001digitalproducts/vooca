@@ -32,7 +32,7 @@ class DaftarSubKategori extends Component {
         const {params} = this.props.navigation.state;
         const item = params ? params.item : null;
         const {kategoriActions} = this.props;
-        kategoriActions.getKata(item.id);
+        kategoriActions.getKata(item);
     }
 
     constructor(props) {
