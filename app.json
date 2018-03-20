@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "vooca",
-    "description": "This project is really great.",
+    "description": "Vooca adalah aplikasi kosakata bahasa Inggris",
     "slug": "vooca",
     "privacy": "public",
     "sdkVersion": "25.0.0",
     "platforms": ["ios", "android"],
-    "version": "1.0.0",
+    "version": "0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,6 +16,9 @@
     },
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.awancoder.vooca"
     }
   }
 }
