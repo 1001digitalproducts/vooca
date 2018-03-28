@@ -13,8 +13,11 @@ import {
 export default class ArtiKata extends Component {
 
     static navigationOptions = ({navigation}) => {
+        const {params} = navigation.state;
+        const item = params ? params.item : null;
+
         return {
-            title: "Terjemahan",
+            title: item.kata,
             headerTintColor: '#fff',
             headerStyle: {
                 backgroundColor: '#1DCFAC'

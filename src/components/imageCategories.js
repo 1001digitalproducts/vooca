@@ -73,8 +73,8 @@ export default class CategoriesImage extends Component {
 
 const styles = StyleSheet.create({
     image: {
-        height: '70%',
-        width: '100%',
+        height: 100,
+        width: 120,
         alignItems: 'center',
         justifyContent: 'center',
         flex: 1

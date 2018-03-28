@@ -7,7 +7,8 @@ import CategoriesImage from '../components/imageCategories';
 import {
     Container,
     Content,
-    Text
+    Text,
+    Button
 } from 'native-base';
 import GridLayout from 'react-native-layout-grid';
 
@@ -19,7 +20,15 @@ class Home extends Component {
             headerTintColor: '#fff',
             headerStyle: {
                 backgroundColor: '#1DCFAC'
-            }
+            },
+            headerRight: (
+                <Button
+                    onPress={() => navigation.navigate('About')}
+                    transparent light
+                >
+                    <Text>About</Text>
+                </Button>
+            ),
         }
     };
 
@@ -46,7 +55,7 @@ class Home extends Component {
                                     }}
                                 >
                                     <CategoriesImage item={item} {...this.props}/>
-                                    <Text style={styles.name} >
+                                    <Text style={styles.name}>
                                         {
                                             item
                                         }
@@ -63,7 +72,9 @@ class Home extends Component {
 
 const styles = StyleSheet.create({
     card: {
-        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flex: 1
     },
     item: {
         height: 150,

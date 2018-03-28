@@ -20,7 +20,7 @@ class DaftarSubKategori extends Component {
         const item = params ? params.item : null;
 
         return {
-            title: item.kategori,
+            title: item,
             headerTintColor: '#fff',
             headerStyle: {
                 backgroundColor: '#1DCFAC'

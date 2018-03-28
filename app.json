@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "vooca",
-    "description": "Vooca adalah aplikasi kosakata bahasa Inggris",
+    "description": "Vooca adalah aplikasi kumpulan kosakata bahasa Inggris",
     "slug": "vooca",
     "privacy": "public",
     "sdkVersion": "25.0.0",
