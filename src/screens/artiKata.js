@@ -7,7 +7,9 @@ import {
     ListItem,
     Card,
     CardItem,
-    Body
+    Body,
+    Button,
+    Icon
 } from 'native-base';
 
 export default class ArtiKata extends Component {
@@ -22,6 +24,14 @@ export default class ArtiKata extends Component {
             headerStyle: {
                 backgroundColor: '#1DCFAC'
             },
+            headerRight: (
+                <Button
+                    onPress={() => navigation.navigate('About')}
+                    transparent light
+                >
+                    <Icon ios='info' android='info'/>
+                </Button>
+            ),
         }
     };
 

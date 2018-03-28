@@ -8,7 +8,8 @@ import {
     Container,
     Content,
     Text,
-    Button
+    Button,
+    Icon
 } from 'native-base';
 import GridLayout from 'react-native-layout-grid';
 
@@ -26,7 +27,7 @@ class Home extends Component {
                     onPress={() => navigation.navigate('About')}
                     transparent light
                 >
-                    <Text>About</Text>
+                    <Icon ios='info' android='info'/>
                 </Button>
             ),
         }

@@ -10,7 +10,8 @@ import {
     ListItem,
     Item,
     Input,
-    Icon
+    Icon,
+    Button,
 } from 'native-base';
 
 class DaftarSubKategori extends Component {
@@ -25,6 +26,14 @@ class DaftarSubKategori extends Component {
             headerStyle: {
                 backgroundColor: '#1DCFAC'
             },
+            headerRight: (
+                <Button
+                    onPress={() => navigation.navigate('About')}
+                    transparent light
+                >
+                    <Icon ios='info' android='info'/>
+                </Button>
+            ),
         }
     };
 
