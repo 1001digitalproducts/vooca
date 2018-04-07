@@ -27,7 +27,7 @@ class Home extends Component {
                     onPress={() => navigation.navigate('About')}
                     transparent light
                 >
-                    <Icon ios='info' android='info'/>
+                    <Icon ios='ios-menu' android="md-menu" style={{fontSize: 20, color: 'red'}}/>
                 </Button>
             ),
         }

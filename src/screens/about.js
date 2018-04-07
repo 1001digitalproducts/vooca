@@ -14,9 +14,14 @@ export default class About extends React.Component {
                         style={styles.title}>
                         Vooca!
                     </Text>
+                    <Text
+                        style={styles.subtitle}
+                    >
+                        Version 0.1 Beta
+                    </Text>
                 </View>
                 <View>
-                    <Text style={styles.subtitle}>Powered by Awan and Rosyid</Text>
+                    <Text style={styles.footer}>Collaboration Awan and Rosyid at 1001 Digital Product Project from Indonesia</Text>
                 </View>
             </View>
         );
@@ -26,13 +31,13 @@ export default class About extends React.Component {
 const styles = StyleSheet.create({
     wrapper: {
         backgroundColor: '#1DCFAC',
-        flexGrow: 1,
+        flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
     },
     title: {
         color: 'white',
-        fontSize: 35,
+        fontSize: 25,
         fontWeight: 'bold',
         justifyContent: 'center',
         alignItems: 'center',
@@ -40,11 +45,16 @@ const styles = StyleSheet.create({
     subtitle: {
         color: 'white',
         fontWeight: '200',
+    },
+    footer: {
+        color: 'white',
+        fontWeight: '200',
         paddingBottom: 20,
+        fontSize: 10,
     },
     titleWrapper: {
         justifyContent: 'center',
-        flex: 1,
+        flexGrow: 1,
     },
     image: {
         height: 120,
