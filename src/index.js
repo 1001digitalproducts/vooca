@@ -2,6 +2,7 @@ import React from 'react';
 import {Provider} from 'react-redux';
 import RootNavigator from './router';
 import store from './redux/store';
+import {Root} from "native-base";
 
 export default class App extends React.Component {
 
@@ -14,9 +15,11 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <Provider store={store}>
-                <RootNavigator/>
-            </Provider>
+            <Root>
+                <Provider store={store}>
+                    <RootNavigator/>
+                </Provider>
+            </Root>
         );
     }
 }

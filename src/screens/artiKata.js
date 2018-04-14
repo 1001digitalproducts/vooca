@@ -9,8 +9,14 @@ import {
     CardItem,
     Body,
     Button,
-    Icon
+    Icon,
+    ActionSheet
 } from 'native-base';
+import {Linking} from 'react-native';
+
+var BUTTONS = ["About", "Report", "Cancel"];
+var CANCEL_INDEX = 2;
+var url = 'http://1001digitalproduct.awancoder.com/report';
 
 export default class ArtiKata extends Component {
 
@@ -26,7 +32,22 @@ export default class ArtiKata extends Component {
             },
             headerRight: (
                 <Button
-                    onPress={() => navigation.navigate('About')}
+                    onPress={() => {
+                        ActionSheet.show(
+                            {
+                                options: BUTTONS,
+                                title: "Menu",
+                                cancelButtonIndex: CANCEL_INDEX,
+                            },
+                            buttonIndex => {
+                                if (buttonIndex === 0) {
+                                    navigation.navigate('About');
+                                } else if (buttonIndex === 1) {
+                                    Linking.openURL(url);
+                                }
+                            }
+                        )
+                    }}
                     transparent light
                 >
                     <Icon name="ios-menu"/>

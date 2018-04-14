@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {StyleSheet, View, TouchableOpacity} from 'react-native';
+import {StyleSheet, View, TouchableOpacity, Linking} from 'react-native';
 import {bindActionCreators} from 'redux';
 import * as kategoriActions from '../redux/kategori/actions';
 import CategoriesImage from '../components/imageCategories';
@@ -9,11 +9,20 @@ import {
     Content,
     Text,
     Button,
-    Icon
+    Icon,
+    ActionSheet
 } from 'native-base';
 import GridLayout from 'react-native-layout-grid';
 
+var BUTTONS = ["About", "Report", "Cancel"];
+var CANCEL_INDEX = 2;
+var url = 'http://1001digitalproduct.awancoder.com/report';
+
 class Home extends Component {
+
+    constructor(props) {
+        super(props);
+    }
 
     static navigationOptions = ({navigation}) => {
         return {
@@ -24,7 +33,22 @@ class Home extends Component {
             },
             headerRight: (
                 <Button
-                    onPress={() => navigation.navigate('About')}
+                    onPress={() => {
+                        ActionSheet.show(
+                            {
+                                options: BUTTONS,
+                                title: "Menu",
+                                cancelButtonIndex: CANCEL_INDEX,
+                            },
+                            buttonIndex => {
+                                if (buttonIndex === 0) {
+                                    navigation.navigate('About');
+                                } else if (buttonIndex === 1) {
+                                    Linking.openURL(url);
+                                }
+                            }
+                        )
+                    }}
                     transparent light
                 >
                     <Icon name="ios-menu"/>
