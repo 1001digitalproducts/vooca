@@ -29,7 +29,7 @@ export default class ArtiKata extends Component {
                     onPress={() => navigation.navigate('About')}
                     transparent light
                 >
-                    <Icon ios='info' android='info'/>
+                    <Icon name="ios-menu"/>
                 </Button>
             ),
         }

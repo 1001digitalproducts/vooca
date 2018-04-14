@@ -10,18 +10,20 @@ export default class About extends React.Component {
                         style={styles.image}
                         source={require('../../assets/image_about.png')}
                     />
-                    <Text
-                        style={styles.title}>
-                        Vooca!
-                    </Text>
-                    <Text
-                        style={styles.subtitle}
-                    >
-                        Version 0.1 Beta
-                    </Text>
+                    <View style={styles.appsName}>
+                        <Text
+                            style={styles.title}>
+                            Vooca!
+                        </Text>
+                        <Text
+                            style={styles.subtitle}
+                        >
+                            Version 0.1 Beta
+                        </Text>
+                    </View>
                 </View>
                 <View>
-                    <Text style={styles.footer}>Collaboration Awan and Rosyid at 1001 Digital Product Project from Indonesia</Text>
+                    <Text style={styles.footer}>1001 Digital Product Project from Indonesia</Text>
                 </View>
             </View>
         );
@@ -51,6 +53,7 @@ const styles = StyleSheet.create({
         fontWeight: '200',
         paddingBottom: 20,
         fontSize: 10,
+        alignItems: 'center'
     },
     titleWrapper: {
         justifyContent: 'center',
@@ -60,4 +63,7 @@ const styles = StyleSheet.create({
         height: 120,
         width: 120
     },
+    appsName: {
+        alignItems: 'center'
+    }
 });
