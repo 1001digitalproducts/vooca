@@ -3126,10 +3126,6 @@ react-native-drawer@2.5.0:
     prop-types "^15.5.8"
     tween-functions "^1.0.1"
 
-react-native-easy-grid-view@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-easy-grid-view/-/react-native-easy-grid-view-0.1.1.tgz#3569deacae397917e978d21b1aca467068e0940a"
-
 react-native-easy-grid@0.1.17:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/react-native-easy-grid/-/react-native-easy-grid-0.1.17.tgz#fad8cb371d465828c1c71daa4d8b513d33253452"
@@ -3162,10 +3158,6 @@ react-native-layout-grid@^0.0.2:
 react-native-maps@0.19.0:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.19.0.tgz#ce94fad1cf360e335cb4338a68c95f791e869074"
-
-react-native-popup-menu@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/react-native-popup-menu/-/react-native-popup-menu-0.12.4.tgz#599b0ac82deaa4a5be722682e3c10ba74674314b"
 
 react-native-safe-area-view@^0.7.0:
   version "0.7.0"

@@ -16,7 +16,7 @@ import GridLayout from 'react-native-layout-grid';
 
 var BUTTONS = ["About", "Report", "Cancel"];
 var CANCEL_INDEX = 2;
-var url = 'http://1001digitalproduct.awancoder.com/report';
+var url = 'http://1001digitalproducts.awancoder.com/report';
 
 class Home extends Component {
 
